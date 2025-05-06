@@ -46,6 +46,11 @@ void main() {
 
   // Dog objDog = Dog();
   // objDog.eat();
+
+  //Question no 5:
+
+  // Cat objCat = Cat();
+  // objCat.method();
 }
 
 // Question no 1: Create a Car class with brand and model properties. Then in main(), create an object of this class, assign values, and print them.
@@ -91,5 +96,22 @@ void main() {
 //   eat() {
 //     print("this Dog is eating");
 //     super.eat();
+//   }
+// }
+
+// Question no 5: Add a method sound() in the Animal class. Then override it in the Cat class to print "Meow".
+
+// class Animal {
+//   eat() {
+//     print("this animal is eating");
+//   }
+
+//   method() {}
+// }
+
+// class Cat extends Animal {
+//   @override
+//   method() {
+//     print("meow");
 //   }
 // }
