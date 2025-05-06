@@ -23,15 +23,17 @@ void main() {
 
   //   isEat() {}
 
-  
-//Question no 1:
+  //Question no 1:
 
   // Car objCar = Car();
   // print(objCar.brandName);
   // print(objCar.modelNum);
 
+  // Question no 2:
 
-
+  // Car objCar = Car("toyota",1900);
+  // print(objCar.brandName);
+  // print(objCar.modelNum);
 }
 
 // Question no 1: Create a Car class with brand and model properties. Then in main(), create an object of this class, assign values, and print them.
@@ -42,4 +44,11 @@ void main() {
 
 // }
 
+// Question no 2: Add a constructor in the Car class to initialize brand and model. Then create an object and pass values using the constructor.
 
+// class Car {
+//   String? brandName;
+//   int? modelNum;
+
+//   Car(this.brandName, this.modelNum);
+// }
