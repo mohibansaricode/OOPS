@@ -41,6 +41,11 @@ void main() {
   // print(objCar.brandName);
   // print(objCar.modelNum);
   // objCar.drive();
+
+  // Question no 4:
+
+  // Dog objDog = Dog();
+  // objDog.eat();
 }
 
 // Question no 1: Create a Car class with brand and model properties. Then in main(), create an object of this class, assign values, and print them.
@@ -73,4 +78,18 @@ void main() {
 //   }
 // }
 
+//Question no 4:  Create a class Animal with a method eat(). Then create a Dog class that inherits from Animal, and call the eat() method.
 
+// class Animal {
+//   eat() {
+//     print("this animal is eating");
+//   }
+// }
+
+// class Dog extends Animal {
+//   @override
+//   eat() {
+//     print("this Dog is eating");
+//     super.eat();
+//   }
+// }
