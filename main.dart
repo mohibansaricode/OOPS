@@ -34,6 +34,13 @@ void main() {
   // Car objCar = Car("toyota",1900);
   // print(objCar.brandName);
   // print(objCar.modelNum);
+
+  // Question no 3:
+
+  // Car objCar = Car("toyota", 1900);
+  // print(objCar.brandName);
+  // print(objCar.modelNum);
+  // objCar.drive();
 }
 
 // Question no 1: Create a Car class with brand and model properties. Then in main(), create an object of this class, assign values, and print them.
@@ -52,3 +59,18 @@ void main() {
 
 //   Car(this.brandName, this.modelNum);
 // }
+
+// Question no 3: Add a method called drive() in the Car class that prints "Car is driving". Then call it using the object.
+
+// class Car {
+//   String? brandName;
+//   int? modelNum;
+
+//   Car(this.brandName, this.modelNum);
+
+//   drive() {
+//     print("Car is Driving");
+//   }
+// }
+
+
