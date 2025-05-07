@@ -57,6 +57,12 @@ void main() {
   // BankAccount obj = BankAccount();
   // obj.deposit();
   // obj.getBalance();
+
+  // Question no 7:
+
+  // Circle obj = Circle();
+  // obj.area();
+
 }
 
 // Question no 1: Create a Car class with brand and model properties. Then in main(), create an object of this class, assign values, and print them.
@@ -134,6 +140,19 @@ void main() {
 //   }
 
 //   getBalance() {
-//     deposit(); 
+//     deposit();
+//   }
+// }
+
+// question no 7:Create an abstract class Shape with an abstract method area(). Then extend it in a Circle class and implement the area() method.
+
+// abstract class Shape {
+//   area();
+// }
+
+// class Circle extends Shape {
+//   @override
+//   area() {
+//     print("this area is circle");
 //   }
 // }
