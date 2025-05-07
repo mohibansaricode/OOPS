@@ -51,6 +51,12 @@ void main() {
 
   // Cat objCat = Cat();
   // objCat.method();
+
+  // Question no 6:
+
+  // BankAccount obj = BankAccount();
+  // obj.deposit();
+  // obj.getBalance();
 }
 
 // Question no 1: Create a Car class with brand and model properties. Then in main(), create an object of this class, assign values, and print them.
@@ -113,5 +119,21 @@ void main() {
 //   @override
 //   method() {
 //     print("meow");
+//   }
+// }
+
+// Question no 6: In a BankAccount class, make a private variable _balance. Create deposit() and getBalance() methods to access it. Then test that _balance cannot be accessed directly.
+
+// class BankAccount {
+//   int _balance = 5000;
+
+//   deposit() {
+//     int depositAmount = 5000;
+//     int currentBalance = depositAmount + _balance;
+//     print(currentBalance);
+//   }
+
+//   getBalance() {
+//     deposit(); 
 //   }
 // }
